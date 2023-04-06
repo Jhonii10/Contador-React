@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Quicksand', sans-serif !important;
 }
 
 .App-logo {
@@ -14,14 +19,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white ;
 }
 
 .App-link {
@@ -35,4 +40,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.mayor{
+  color: greenyellow;
+}
+
+.menor{
+  color: tomato;
+}
+
+.container-contador{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.container-contador button{
+  margin: 6px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Quicksand', sans-serif !important;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
 }
